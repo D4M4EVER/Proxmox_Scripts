@@ -13,7 +13,7 @@ and attempt the *No-Nag* fix.
 Run the following in the Proxmox Web Shell. ⚠️ **PVE7 ONLY**
 
 ```yaml
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/D4M4EVER/Proxmox_Scripts/main/misc/pve_post_install.sh)"
+bash <(curl -s https://raw.githubusercontent.com/D4M4EVER/Proxmox_Scripts/main/misc/pve_post_install.sh )
 ```
 
 Proxmox with auto update while running this script, it may take some time depending on your current version and/or internet speed.
@@ -56,7 +56,7 @@ and attempt the *No-Nag* fix.
 Run the following in the Proxmox Web Shell. ⚠️ **PBS 2.1 ONLY**
 
 ```yaml
-bash -c "$(wget -qLO - https://raw.githubusercontent.com/D4M4EVER/Proxmox_Scripts/main/misc/pbs_post_install.sh)"
+ bash <(curl -s https://raw.githubusercontent.com/D4M4EVER/Proxmox_Scripts/main/misc/pbs_post_install.sh )
 ```
 
 It's recommended to update Proxmox after running this script, before configuring Proxmox Backup Server.
