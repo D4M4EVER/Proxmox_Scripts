@@ -24,3 +24,4 @@ apt --reinstall install proxmox-widget-toolkit &>/dev/null
 echo -e "\e[1;33m Finished....Please Update Proxmox \e[0m"
 
 # bash -c "$(wget -qLO - https://raw.githubusercontent.com/D4M4EVER/Proxmox_Scripts/main/misc/pve_post_install.sh)"
+# Scripts based off [tteck] Proxmox Helpers, https://github.com/tteck/Proxmox
