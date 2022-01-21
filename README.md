@@ -85,3 +85,6 @@ To uninstall the theme, simply run the script with the `uninstall` command.
 ____________________________________________________________________________________________ 
 
 </details>
+
+ ____________________________________________________________________________________________ 
+ Scripts based off [tteck](https://github.com/tteck/Proxmox) Proxmox Helpers
