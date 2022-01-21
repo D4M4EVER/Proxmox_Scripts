@@ -16,7 +16,7 @@ Run the following in the Proxmox Web Shell. ⚠️ **PVE7 ONLY**
 bash -c "$(wget -qLO - https://raw.githubusercontent.com/D4M4EVER/Proxmox_Scripts/main/misc/pve_post_install.sh)"
 ```
 
-It's recommended to update Proxmox after running this script, before adding any VM/CT.
+Proxmox with auto update while running this script, it may take some time depending on your current version and/or internet speed.
 
 ____________________________________________________________________________________________ 
 
