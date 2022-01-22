@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo -e "\e[0;34 This script will Disable the Enterprise Repo, Add & Enable the No-Subscription Repo, 
+echo -e "\e[1;34 This script will Disable the Enterprise Repo, Add & Enable the No-Subscription Repo, 
 Add & Disable Test Repo (repo's can be enabled/disabled via the UI in Repositories) 
 and attempt the No-Nag fix. PVE7 ONLY \e[0m"
 while true; do
